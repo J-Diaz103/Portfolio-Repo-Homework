@@ -1,0 +1,27 @@
+:root{
+    --background-color:rgb(35, 209, 209);
+}
+html{
+    background-color: var(--background-color);
+    font-size: 25px;
+}
+h1{
+    font-size: 180%;
+}
+h2{
+    font-size: 160%;
+    margin: 2%;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+li{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+footer{
+    display: block;
+    align-items: center;
+}
