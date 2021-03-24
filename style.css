@@ -1,8 +1,9 @@
 :root{
-    --background-color:rgb(35, 209, 209);
+    --primary:rgb(35, 209, 209);
+    --card-border: 2px black solid;
 }
 html{
-    background-color: var(--background-color);
+    background-color: var(--primary);
     font-size: 25px;
 }
 h1{
@@ -25,3 +26,27 @@ footer{
     display: block;
     align-items: center;
 }
+/* This is gonna be the elements for the skills, Education, Working Projects
+will name .cards*/
+/* cards start*/
+.cards{
+    border: var(--card-border) ;
+    background-color: rgb(154, 177, 219);
+    display: flex;
+    justify-content: center;
+}
+.cards-header{
+    border: var(--card-border);
+    margin: 2%; 
+    background-color:var(--primary); 
+}
+.AboutMe{
+    border: var(--card-border) ;    
+}
+.Education{
+    border: var(--card-border) ;
+}
+.WorkingProjects{
+    border: var(--card-border) ;
+}
+/* cards end*/
