@@ -5,27 +5,41 @@
     --card-border: 2px black solid;
     --bot-right-border-style: rgb(143, 154, 160) solid 3px;
     --card-size-height:400px;
-    --card-size-width: auto;
+    --card-size-width: 500px;
 }
+
 html{
     background-color: var(--primary);
     font-size: 25px;
 }
+
 a{
     text-decoration: none;
 }
+
 /*This is where the header info starts*/
+
 h1{
     font-size: 180%;
     margin-top: 3%;
     margin-left: 4%;
-    margin-right: 80%;
+    margin-right: 75%;
+    padding-right: 5px;
     border-bottom: var(--bot-right-border-style);
     border-right: var(--bot-right-border-style);
 }
+
+header h1::after{
+    content:"Jesus Diaz";
+    display: block;
+    color: rgb(253, 253, 253);
+    
+}
+
 nav{
     background-color:var(--secondary);
 }
+
 .ul-nav-syle{
     border-top:black 1px solid;
     border-bottom: black 1px solid;
@@ -33,28 +47,36 @@ nav{
     display: flex;
     justify-content: flex-end;
 }
+
 .header-item-style{
     border-bottom: var(--bot-right-border-style);
     border-right: var(--bot-right-border-style);
     margin: 2%;  
 }
+
 /*This is where the info for my header ends*/
+
 h2{
     font-size: 160%;
     margin: 2%;
 }
+
 li{
     display: flex;
     flex-wrap: wrap;
     margin: 2%;
 }
+
 footer{
     display: block;
     align-items: center;
 }
+
 /* This is gonna be the elements for the skills, Education, Working Projects
 will name .cards*/
+
 /* cards start*/
+
 .cards{
     border: var(--card-border) ;
     background-color:var(--tertiary);
@@ -63,18 +85,22 @@ will name .cards*/
     justify-content: center;
     margin: 2px;
 }
+
 .cards-header{
     border: var(--card-border);
     margin: 2%; 
     background-color:var(--primary); 
 }
+
 /* AboutMe section starts*/
+
 .AboutMe{
     border: var(--card-border) ; 
     margin: 2%; 
     float: auto;
     height: 240px;  
 }
+
 .Profile-Pic{
     width: 190px;
     height: 190px;
@@ -85,7 +111,9 @@ will name .cards*/
     background-color: var(--tertiary);
     border-radius: 60px ;
 }
+
 /* skills section starts*/
+
 .Skills{
     border: var(--card-border) ;
     margin: 5px;
@@ -93,29 +121,49 @@ will name .cards*/
     width: var(--card-size-width);
     float: right;
 }
+
 .Skills-image{
     height: 230px;
     width: 230px;
     float: left;
+    padding: 6px;
 }
+
 /* skills section ends*/
+
 .Education{
     border: var(--card-border) ;
     margin: 5px;
     height: var(--card-size-height);
     width: var(--card-size-width);
 }
+
 .WorkingProjects{
     border: var(--card-border) ;
     margin: 5px;
     height: var(--card-size-height);
     width: var(--card-size-width);
 }
+
+/* footer starts*/
+
+.contact-links {
+    display: none;
+  }
+  
+.contact-text:hover {
+
+    color: azure;
+}
+
+/* footer ends*/
+
 /* cards end*/
+
 @media only screen and (max-width: 1200px) {
     h1 {
         margin-top: 3%;
         margin-left: 4%;
-        margin-right: 50%;
+        margin-right: 75%;
     }
   }

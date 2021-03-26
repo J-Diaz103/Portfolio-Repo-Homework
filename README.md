@@ -9,7 +9,7 @@ Added a few elements to my style.css file
 3/23/2021
 experimented with some css. no significant changes.
 
-3/24/2021
+3/24/2021 -3/24/21
 I styled the header, the nav bar, and styling the body.
 Header:
 -h1: added styles, margin, and borders
@@ -20,3 +20,7 @@ Body:
 used id's to link the nav bar items
 started separating the section and styling them as I want them to look
 made the cards got to a column after changing the viewport size on inspector
+
+3/25/21
+I tried to use the :hover elements for my contacts, am having issues.
+I adjusted some css aspects on the the cards to fit the style I want to have.
