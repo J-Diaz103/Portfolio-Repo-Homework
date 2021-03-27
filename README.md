@@ -24,3 +24,10 @@ made the cards got to a column after changing the viewport size on inspector
 3/25/21
 I tried to use the :hover elements for my contacts, am having issues.
 I adjusted some css aspects on the the cards to fit the style I want to have.
+
+3/26/21
+Will work on getting the hover effect to work , and making the links work while opening a blank tab
+- was able to make the hover pseudo class work for the  hover effect
+- mde all links work correctly
+will do a git push to assure that every file is where it should and will load correctly from a the link
+just need to add more style. page feels a bit plain but it works correctly
