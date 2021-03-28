@@ -31,3 +31,9 @@ Will work on getting the hover effect to work , and making the links work while 
 - mde all links work correctly
 will do a git push to assure that every file is where it should and will load correctly from a the link
 just need to add more style. page feels a bit plain but it works correctly
+
+3/27/
+added images to as a background to the body
+fixed some styling on the cards, and headers.
+added some text shadows, with hover effects, structured the page better, and mede it look more  appealing to the eye
+I will do a git push to test that everything in my files link correctly. and that my Github link works as it should.

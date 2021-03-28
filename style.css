@@ -6,11 +6,14 @@
     --bot-right-border-style: rgb(143, 154, 160) solid 3px;
     --card-size-height:400px;
     --card-size-width: 500px;
+    --last-color:rgb(10, 39, 66);
+    --style-edges:40px;
 }
 
 html{
     background-color: var(--primary);
     font-size: 25px;
+    font-family: serif, sans-serif;
 }
 
 a{
@@ -60,6 +63,7 @@ nav{
     margin: 2%;  
 }
 
+
 /*This is where the info for my header ends*/
 
 h2{
@@ -82,29 +86,45 @@ footer{
 will name .cards*/
 
 /* cards start*/
-
+/* cards start*/
 .cards{
-    border: var(--card-border) ;
-    background-color:var(--tertiary);
+   /* cards border: var(--card-border) ;start*/
+    background-color:var(--last-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 2px;
 }
 
+.cards{
+    background-image: url("../Portfolio-Repo-Homework/images/lake_2.jpg");
+    background-size: cover;
+}
+
 .cards-header{
     border: var(--card-border);
     margin: 2%; 
-    background-color:var(--primary); 
+    background-color:var(--primary);
+    border-radius: var(--style-edges); 
+    text-align: center;
+}
+/* picture after nav bar*/
+
+.Yosimete{
+    width: 100%;
+    height: 300px;
 }
 
 /* AboutMe section starts*/
 
 .AboutMe{
     border: var(--card-border) ; 
-    margin: 2%; 
+    margin: 2%;
+    margin-top: 0%; 
     float: auto;
-    height: 240px;  
+    height: 240px;
+    border-radius: var(--style-edges);
+    margin-top: 1%;
 }
 
 .Profile-Pic{
@@ -126,16 +146,19 @@ will name .cards*/
     height: var(--card-size-height);
     width: var(--card-size-width);
     float: right;
+    background-color: var(--tertiary);
+    border-radius: var(--style-edges);
 }
 
 .Skills-image{
-    height: 230px;
-    width: 230px;
+    height: 180px;
+    width: 180px;
     float: left;
     padding: 4px;
     border: black solid 4px;
     border-radius: 60px ;
     margin: 4px;
+    background-color: var(--secondary);
 }
 
 /* skills section ends*/
@@ -146,16 +169,19 @@ will name .cards*/
     margin: 5px;
     height: var(--card-size-height);
     width: var(--card-size-width);
+    background-color: var(--tertiary);
+    border-radius: var(--style-edges);
 }
 
 .Eduacation-image{
-    height: 230px;
-    width: 230px;
+    height: 180px;
+    width: 180px;
     float: right;
     padding: 4px;
     border: black solid 4px;
     border-radius: 60px ;
     margin: 4px;
+    background-color: var(--secondary)
 }
 /*Education section ends*/
 
@@ -165,11 +191,21 @@ will name .cards*/
     margin: 5px;
     height: var(--card-size-height);
     width: var(--card-size-width);
+    background-color: var(--tertiary);
+    border-radius: var(--style-edges);
+}
+
+.project-link{
+    color: rgb(54, 100, 116);
 }
 
 .a-tag{
     display: flex;
     justify-content: center;
+    margin-bottom: 2%;
+}
+.a-tag:hover .project-link{
+    color: navy;
 }
 /*WorkingProjects section ends*/
 
@@ -178,6 +214,7 @@ will name .cards*/
 footer {
     border: var(--card-border) ;
     margin: 4%;
+    border-radius: var(--style-edges);
 }
 
 .contact-text .contact-links {
@@ -188,8 +225,30 @@ footer {
     display: flex;
     justify-content: center;
     color: cornsilk;
+    
+}
+.h2-contact{
+    text-align: center;
+    text-shadow: none;
 }
 
+.contact-text:hover .h2-contact{
+    color: oldlace;
+    text-shadow: 4px 4px 8px #66b4d3;;
+}
+
+.closing{
+    display: block;
+    text-align: center;
+}
+.logo1{
+    height: 32px;
+    width: 34px;
+}
+.logo2{
+    height: 32px;
+    width: 34px;
+}
 
 
 /* footer ends*/
@@ -202,7 +261,5 @@ footer {
         margin-left: 4%;
         margin-right: 75%;
     }
-    .AboutMe{
-        width: 800px;
-    }
+
   }
