@@ -14,7 +14,7 @@ A way to see some of the work I've done and learn a little bit about me.
 
 ## Screenshot
 
-![portfolio!] (../Portfolio-screenshot.png)
+![portfolio!](../Portfolio-screenshot.png)
 
 ## Contact Information
 
